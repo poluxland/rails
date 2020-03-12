@@ -5,9 +5,7 @@
     "author": "@themicon_co",
     "license": "https://wrapbootstrap.com/help/licenses",
     "private": true,
-    "scripts": {
-        "modernizr": "modernizr -c modernizr-config.json -d node_modules/modernizr/modernizr.custom.js",
-        "postinstall": "npm run modernizr"
+
     },
     "dependencies": {
         "@rails/actioncable": "6.0.0-alpha",
@@ -68,6 +66,7 @@
         "jszip": "3.1.5",
         "loaders.css": "0.1.2",
         "matchmedia": "0.1.2",
+        "modernizr": "3.7.1",
         "moment": "2.22.2",
         "morris.js.so": "0.5.1",
         "parsleyjs": "2.8.1",
